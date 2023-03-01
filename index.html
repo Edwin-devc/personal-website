@@ -10,23 +10,42 @@
     <header>
         <center>
             <a href="#">Home</a>
-            <a href="">About Me</a>
-            <a href="">Hobbies & Interests</a>
+            <a href="#about">About</a>
+            <a href="hobbies.html">Hobbies & Interests</a>
+            <a href="#contactForm">Contact</a>
         </center>
         
     </header>
     <main>
         <br>
         <center>
-            <img src="images/portrait.jpg" alt="my portrait" width="250px">
+            <img src="images/portrait.jpg" alt="my portrait" width="270px">
         </center>
         <br>
         <center>
             <div>
-                <h3>About Me</h3>
+                <h3 id="about">About Me</h3>
                 <p>I am <strong>Rwakasiisi Edwin</strong>, a student at <a href="https://www.mak.ac.ug/"><i>Makerere University</i></a></p>
-                <p>And I am doing a Bachelors of Science in Software Engineering</p>
+                <p>And I am doing a <b>Bachelors of Science in Software Engineering</b>.
+                    <br>
+                    Based in Kampala, Uganda and I'm passionate &#128151; about programming, <br>web design and web development
+                </p>
             </div>
+            <br>
+            <h3>Contact Me</h3>
+            <form action="" id="contactForm">
+                <label for="name">Name: </label>
+                <input type="text" name="name" required>
+                <br>
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" required>
+                <br>
+                <br>
+                <label for="message">Message </label>
+                <textarea name="message" id="messageBox" cols="19" rows="2"></textarea>
+            </form>
+            <a href="mailto:erwakasiisi@gmail.com"><button>Submit</button></a>
         </center>
         
     </main>
