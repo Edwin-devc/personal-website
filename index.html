@@ -8,54 +8,65 @@
 </head>
 <body>
     <header>
-        <center>
+        <marquee width="100%" direction="left" height="60px">
+            <h2>WELCOME TO MY PERSONAL WEBSITE</h2>
+        </marquee>
+        <nav>
             <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="hobbies.html">Hobbies & Interests</a>
             <a href="#contactForm">Contact</a>
-        </center>
-        
+        </nav>
     </header>
+    
     <main>
-        <br>
-        <center>
+        <aside>
             <img src="images/portrait.jpg" alt="my portrait" width="270px">
-        </center>
+        </aside>
         <br>
-        <center>
-            <div>
-                <h3 id="about">About Me</h3>
-                <p>I am <strong>Rwakasiisi Edwin</strong>, a student at <a href="https://www.mak.ac.ug/"><i>Makerere University</i></a></p>
-                <p>And I am doing a <b>Bachelors of Science in Software Engineering</b>.
-                    <br>
-                    Based in Kampala, Uganda and I'm passionate &#128151; about programming, <br>web design and web development
-                </p>
-                <h4>Languages Spoken</h4>
-                <ol>
-                    <li>Swahili</li>
-                    <li>English</li>
-                </ol>
-            </div>
+        <div>
+            <h3 id="about">About Me</h3>
+            <p>I am <strong>Rwakasiisi Edwin</strong>, a student at <a href="https://www.mak.ac.ug/"><i>Makerere University</i></a></p>
+            <p>And I am doing a <b>Bachelors of Science in Software Engineering</b>.
+                <br>
+                Based in Kampala, Uganda and I'm passionate &#128151; about programming, <br>web design and web development
+            </p>
+            <h4>Languages Spoken</h4>
+            <ol>
+                <li>Swahili</li>
+                <li>English</li>
+            </ol>
+        </div>
+        <br>
+        <h3>Contact Me</h3>
+        <form action="" id="contactForm">
+            <label for="name">Name: </label>
+            <input type="text" name="name" required>
             <br>
-            <h3>Contact Me</h3>
-            <form action="" id="contactForm">
-                <label for="name">Name: </label>
-                <input type="text" name="name" required>
-                <br>
-                <br>
-                <label for="email">Email: </label>
-                <input type="email" name="email" required>
-                <br>
-                <br>
-                <label for="message">Message </label>
-                <textarea name="message" id="messageBox" cols="19" rows="2"></textarea>
-            </form>
-            <a href="mailto:erwakasiisi@gmail.com"><button>Submit</button></a>
-        </center>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" required>
+            <br>
+            <br>
+            <label for="message">Message </label>
+            <textarea name="message" id="messageBox" cols="19" rows="2"></textarea>
+        </form>
         <br>
-        <center>
-            <a href="#"><button>&#8593; Back To Top</button></a>
-        </center>
+        <a href="mailto:erwakasiisi@gmail.com"><button>Submit</button></a>
+        <br>
+        <br>
+        <footer>
+            <h4>Useful links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="hobbies.html">Hobbies & Interests</a></li>
+                <li><a href="#contactForm">Contact</a></li>
+            </ul>
+            <center>
+                <a href="#"><button>&#8593; Back To Top</button></a>
+            </center>
+        </footer>
         
         
     </main>
