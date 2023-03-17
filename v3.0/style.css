@@ -10,27 +10,57 @@
 .top-container, .bottom-container {
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
 }
-.bio-data {
-    background-color: brown;
-    width: 400px;
-    height: 400px;
+.bio-data p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.bio-data h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
 }
 
 .image-container {
-    background-color: aqua;
-    width: 400px;
-    height: 400px;
+    
 }
 .image-container img {
-    width: inherit;
-    height: inherit;
+    width: 120px;
+    height:120px;
+    border: none;
+    border-radius: 50%;
 }
 .education-history {
     width: 600px;
     height: auto;
     margin: auto;
 }
+.education-history h3{
+    text-align: center;
+    margin: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 table {
     margin: auto;
+}
+table th {
+    padding: 5px 40px;
+}
+
+table td {
+    padding: 5px 40px;
+}
+
+.hobbies h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.hobbies ul li {
+    list-style: none;
+}
+.contact-me h3 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
