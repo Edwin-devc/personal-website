@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mx {
+    padding: 0 60px;
+}
+
+.top-container, .bottom-container {
+    display: flex;
+    justify-content: space-around;
+}
+.bio-data {
+    background-color: brown;
+    width: 400px;
+    height: 400px;
+}
+
+.image-container {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+}
+.image-container img {
+    width: inherit;
+    height: inherit;
+}
+.education-history {
+    width: 600px;
+    height: auto;
+    margin: auto;
+}
+table {
+    margin: auto;
+}
