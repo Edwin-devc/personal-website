@@ -7,6 +7,13 @@ body {
     background-color: #98DFD6;
     color: #00235B;
 }
+a {
+    text-decoration: none !important;
+    color: #002B5B;
+}
+a:hover {
+    color: #fff;
+}
 .mx {
     padding: 0 60px;
 }
